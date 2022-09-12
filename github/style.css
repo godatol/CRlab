@@ -1,0 +1,297 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+/* ================================== */
+/* Common style */
+.col-20 {
+    width: 20%;
+    position: relative;
+    display: block;
+    min-height: 1px;
+    float: left;
+}
+
+.col-60 {
+    width: 60%;
+    position: relative;
+    display: block;
+    min-height: 1px;
+    float: left;
+}
+
+.container-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.full-height {
+    height: 100%;
+}
+
+/* padding top - 60px */
+.pt-35 {
+    padding-top: 35px;
+}
+/* ================================== */
+
+.main_header {
+    display: flex;
+    position: relative;
+}
+
+.top_header {
+    height: 25px;
+    background-color: #e4834c;
+    text-align: center;
+    width: 100%;
+}
+
+.top-header-section a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.07em;
+}
+
+.top-header-section a:hover {
+    color: black;
+    text-decoration: underline;
+    transition: .4s;
+}
+
+.top-header-section a b {
+    font-weight: 900;
+}
+
+#header_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header_logo a {
+    width: 130px;
+    display: block;
+}
+
+.header-action {
+    margin-right: 15px;
+}
+
+.header-action a {
+    font-size: 18px;
+    color: black;
+}
+
+.header-action a:hover {
+    color: #56cfe1;
+}
+
+.header-language a {
+    background-color: #8a837a;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.navigation-wrapper {
+    width: 100%;
+    position: relative;
+    display: block;
+    margin: 20px 0;
+}
+
+.main-nav {
+    text-align: center;
+}
+
+.main-nav li{
+    display: inline-block;
+}
+
+.nav-link {
+    color: black;
+    padding: 3px 12px;
+    margin: 0 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.shop-link {
+    font-weight: 900;
+}
+
+.nav-link:hover {
+    background-color: #eee;
+    clip-path: polygon(15% 0,100% 0,85% 100%,0% 100%);
+}
+
+.main {
+    width: 100%;
+    height: 330px;
+    
+    padding:0;
+    margin:0;
+    float:left;
+
+
+}
+
+.main2 {
+    background-color: white;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    margin:0px;
+    padding:0px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.container3 {
+    background: rgba(255, 255, 255);
+    color:red;
+    float:right; 
+    width:27%;
+    height:270px;
+   
+    margin-top:50px;
+    margin-left: 20px;
+    white-space: -moz-pre-wrap;
+    padding-bottom: -30;
+    text-align: center;
+}
+
+.container2 {
+    background: rgba(255, 255, 255);
+    color:red;
+    float:left; 
+    width:27%;
+    height:270px;
+   
+    margin-top:50px;
+    margin-left: 20px;
+    
+    padding-bottom: -30;
+    text-align: center;
+}
+
+.container4 {
+    background: rgba(255, 255, 255);
+    color:red;
+    float:right; 
+    width:27%;
+    height:270px;
+   
+    margin-top:50px;
+    margin-left: 20px;
+    white-space: -moz-pre-wrap;
+    padding-bottom: -30;
+    text-align: center;
+}
+
+.container2 , .container3 , .container4 {
+
+    margin: 10px;
+    padding: 10px;
+}
+
+.main3 {
+    background-color: white;
+    width: 100%;
+    height: 400px;
+  
+    margin:0px;
+    padding:0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top:5px;
+  
+    
+}
+
+.container5 , .container6 , .container7 {
+    width: 30%;
+    display: inline-block;
+    float:left; 
+    width:27%;
+    height:250px;
+   
+    margin-top:50px;
+    margin-left: 75px;
+    
+    padding-bottom: -30;
+    text-align: center;
+
+   
+    
+    
+    
+
+}
+
+.container8 , .container9 , .container10 , .container11 {
+    width: 30%;
+    display: inline-block;
+    float:left; 
+    width:19%;
+    height:250px;
+   
+    margin-top:50px;
+    margin-left: 75px;
+    
+    padding-bottom: -30;
+    text-align: center;
+}
+
+.main4 {
+    display: flex;
+    margin:0px;
+    padding:0px;
+    justify-content: center;
+    align-items: center;
+    margin-top:350px;
+    
+    margin-right: 5px;
+    margin-left: 1px;
+    right: 0;
+    height: 500px;
+}
+
+
+
+.underpicture {
+    margin-top: -20px;
+    padding: -30px;
+    line-height: 0;
+   
+}
+
